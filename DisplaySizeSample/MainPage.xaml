@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="DisplaySizeSample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DisplaySizeSample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF1259FB">
+        <TextBlock HorizontalAlignment="Left" Margin="88,166,0,0" TextWrapping="Wrap" Text="Width" VerticalAlignment="Top" FontFamily="Meiryo UI" FontSize="17.333" Width="59"/>
+        <TextBlock HorizontalAlignment="Left" Margin="88,215,0,0" TextWrapping="Wrap" Text="Height" VerticalAlignment="Top" FontFamily="Meiryo UI" FontSize="17.333" Width="59"/>
+        <TextBlock HorizontalAlignment="Left" Margin="88,264,0,0" TextWrapping="Wrap" Text="DPI" VerticalAlignment="Top" FontFamily="Meiryo UI" FontSize="17.333" Width="35"/>
+        <TextBlock x:Name="widthText" HorizontalAlignment="Left" Margin="188,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Meiryo UI" FontSize="17.333" Width="332"/>
+        <TextBlock x:Name="heightText" HorizontalAlignment="Left" Margin="188,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Meiryo UI" FontSize="17.333" Width="365"/>
+        <TextBlock x:Name="dpiText" HorizontalAlignment="Left" Margin="188,264,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Meiryo UI" FontSize="17.333" Width="462"/>
+
+    </Grid>
+</Page>
